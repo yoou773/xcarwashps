@@ -3,168 +3,93 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>X Car Wash</title>
+<title>X Car Wash VIP</title>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700;900&display=swap');
-
 body{
-  margin:0;
-  font-family:'Cairo', sans-serif;
-  background:#0b0b0f;
-  color:#fff;
+margin:0;
+font-family:Cairo;
+background:black;
+color:white;
 }
 
-/* الهيدر */
-header{
-  background:linear-gradient(90deg,#00e5ff,#b400ff);
-  padding:25px;
-  text-align:center;
-  box-shadow:0 0 20px #00e5ff;
-}
-header h1{margin:0;font-size:32px;}
-
-/* القسم الرئيسي */
 .hero{
-  text-align:center;
-  padding:50px 20px;
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(120deg,#00e5ff,#b400ff,#000);
 }
-.hero h2{color:#00e5ff;font-size:28px;}
-.hero p{color:#ccc;}
+
+h1{font-size:40px;}
+p{color:#ccc;}
 
 .btn{
-  display:inline-block;
-  margin:10px;
-  padding:12px 25px;
-  border-radius:30px;
-  text-decoration:none;
-  font-weight:bold;
-  background:linear-gradient(90deg,#00e5ff,#b400ff);
-  color:#fff;
-  box-shadow:0 0 15px #00e5ff;
+padding:15px 30px;
+margin:10px;
+border-radius:30px;
+background:linear-gradient(90deg,#00e5ff,#b400ff);
+color:white;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 0 20px #00e5ff;
 }
 
-/* الخدمات */
-.services{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
-  gap:15px;
-  padding:20px;
+.section{
+padding:40px;
+text-align:center;
 }
+
 .card{
-  background:#141420;
-  padding:20px;
-  border-radius:15px;
-  text-align:center;
-  border:1px solid #00e5ff;
-  box-shadow:0 0 10px #00e5ff33;
+background:#111;
+padding:20px;
+margin:10px;
+border-radius:15px;
+border:1px solid #00e5ff;
 }
 
-/* معرض الصور */
-.gallery{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
-  gap:10px;
-  padding:20px;
-}
-.gallery img{
-  width:100%;
-  border-radius:12px;
-  border:2px solid #b400ff;
-}
-
-/* الحجز */
-.booking{
-  padding:20px;
-  text-align:center;
-}
-input, select{
-  width:90%;
-  padding:10px;
-  margin:8px;
-  border-radius:10px;
-  border:none;
-}
-
-/* الفوتر */
-footer{
-  text-align:center;
-  padding:20px;
-  background:#000;
-  color:#777;
-  margin-top:20px;
-}
-
-/* واتساب */
-.whatsapp-float{
-  position:fixed;
-  bottom:20px;
-  left:20px;
-  width:60px;
-  height:60px;
-  background:#25D366;
-  border-radius:50%;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  font-size:28px;
-  text-decoration:none;
-  color:#fff;
-  box-shadow:0 0 15px #25D366;
+.fixed{
+position:fixed;
+bottom:20px;
+left:20px;
+background:#25D366;
+width:60px;
+height:60px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:28px;
 }
 </style>
 </head>
 
 <body>
 
-<header>
-  <h1>X Car Wash 🚗</h1>
-</header>
+<div class="hero">
+<h1>🚗 X Car Wash VIP</h1>
+<p>خدمة غسيل سيارات فاخرة - سرعة + لمعان + احتراف</p>
 
-<section class="hero">
-  <h2>غسيل سيارات احترافي بنظام نيون</h2>
-  <p>نظافة • لمعان • سرعة • جودة</p>
+<a class="btn" href="https://wa.me/970569416698">احجز الآن 💬</a>
+</div>
 
-  <a href="tel:0569416698" class="btn">اتصال مباشر</a>
-  <a href="https://wa.me/970569416698" class="btn" style="background:green;">واتساب 💬</a>
-</section>
+<div class="section">
+<h2>🔥 لماذا نحن الأفضل؟</h2>
 
-<section class="services">
-  <div class="card">غسيل خارجي</div>
-  <div class="card">غسيل داخلي</div>
-  <div class="card">تلميع كامل</div>
-  <div class="card">تنظيف محرك</div>
-</section>
+<div class="card">⚡ خدمة سريعة خلال دقائق</div>
+<div class="card">✨ تلميع احترافي VIP</div>
+<div class="card">🚗 عناية كاملة بالسيارة</div>
+</div>
 
-<section class="gallery">
-  <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70">
-  <img src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2">
-  <img src="https://images.unsplash.com/photo-1520340356584-f9917d1eea6f">
-</section>
+<div class="section">
+<h2>📞 احجز الآن مباشرة</h2>
+<a class="btn" href="tel:0569416698">اتصال مباشر</a>
+<a class="btn" href="https://wa.me/970569416698">واتساب</a>
+</div>
 
-<section class="booking">
-  <h2 style="color:#00e5ff;">احجز موعدك</h2>
-
-  <input type="text" placeholder="الاسم">
-  <input type="tel" placeholder="رقم الهاتف">
-
-  <select>
-    <option>اختر الخدمة</option>
-    <option>غسيل خارجي</option>
-    <option>غسيل داخلي</option>
-    <option>تلميع كامل</option>
-  </select>
-
-  <input type="datetime-local">
-
-  <a href="#" class="btn">إرسال الحجز</a>
-</section>
-
-<footer>
-  © X Car Wash - جميع الحقوق محفوظة
-</footer>
-
-<a href="https://wa.me/970569416698" class="whatsapp-float">💬</a>
+<a class="fixed" href="https://wa.me/970569416698">💬</a>
 
 </body>
 </html>
